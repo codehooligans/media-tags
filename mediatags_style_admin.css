@@ -1,0 +1,61 @@
+body#media-upload tr.media-meta ul.media-tags-list {
+	list-style:none;	
+	margin: 10px 0 20px 0;
+	padding: 0 0 0 0;
+}
+
+body#media-upload tr.media-meta ul.media-tags-list li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+	width: 30%;
+}
+
+tr.media-meta div#media-tags-list-used,
+tr.media-meta div#media-tags-list-common,
+tr.media-meta div#media-tags-list-uncommon { 
+	clear: both;
+	margin: 5px 0;
+	float: left;
+	width: 460px;
+}
+
+tr.media-meta a,
+tr.media-meta a#mediatag-show-hide-common,
+tr.media-meta a#mediatag-show-hide-uncommon { 
+	text-align: left;
+	display: block;
+}
+
+tr.media-meta div#media-tags-list-used,
+tr.media-meta div#media-tags-list-common,
+tr.media-meta div#media-tags-list-uncommon {  
+	border:1px solid #DFDFDF;
+	clear:both;
+	padding:0 0 10px 5px;
+}
+
+body.wp-admin div.media-single tr.media-meta ul.media-tags-list {
+	list-style:none;	
+	margin: 10px 0 20px 0;
+	padding: 0 0 0 0;
+}
+
+body.wp-admin tr.media-meta ul.media-tags-list li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+#wpbody-content .media-upload-form ul.media-tags-list li label {
+	display: inline;
+	margin:0.0em;
+}
+
+body.wp-admin div#media-items tr.media-meta ul.media-tags-list li {
+	width: 30%;
+}
+
+body.wp-admin div.media-single tr.media-meta ul.media-tags-list li {
+	width: 20%;
+}
